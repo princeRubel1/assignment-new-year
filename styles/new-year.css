@@ -1,0 +1,56 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      
+}
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 80vh;
+    position: relative;
+}
+.banner_center_content{
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    
+}
+.banner_center_content h2{
+    width: 525px;
+   text-align: right;
+   color: #151414;
+   padding-bottom: 20px;
+   font-size:25px;
+}
+.banner_center_content p{
+    font-size: 18px;
+  color: #444343;
+  padding-bottom: 30px;
+  
+}
+.btn_primary{
+    padding: 16px 20px;
+    background: #ff5959;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+}
+.blog{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items:right;
+}
+
+.section_title{
+    text-align:right;
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 45px;
+}
